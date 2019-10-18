@@ -1,0 +1,196 @@
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<!DOCTYPE html>
+<html>
+<title>Min's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.w3-sidebar {width: 120px;background: #222;}
+#main {margin-left: 120px}
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="./img/myface.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#introduce" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>INTRO</p>
+  </a>
+  <a href="#study" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-pencil w3-xxlarge"></i>
+    <p>STUDY</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+  <a href="#egg" class="w3-bar-item w3-button w3-padding-large w3-hover-white" >
+  	<i class="w3-xxlarge" style="color:transparent">Egg</i>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium " id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#introduce" class="w3-bar-item w3-button" style="width:25% !important">introduce</a>
+    <a href="#study" class="w3-bar-item w3-button" style="width:25% !important">study</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Min Ook, Choi.</h1>
+    <p>"Effort never lies, till I don't."</p>
+    <img src="./img/myface.jpg" alt="boy" class="w3-image" width="200" height="268">
+  </header>
+
+  <!-- introduce Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="introduce">
+    <h2 class="w3-text-light-grey">API_1</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p><b><em>"부끄럽지 않도록 하자."</em></b><br><br>
+    	후회 하나 없는 삶을 사는 사람이 있을까요?<br>
+    	크던 작던 다들 마음 한켠에 후회가 자리하고 있는 공간이 있을거라 생각합니다.<br>
+    	후회하더라도 부끄럽지 않은 삶을 살고 싶어졌습니다. 다른 누군가에게 자랑스럽기 이전에, 제 자신에게 자랑스럽고 싶습니다.<br>
+    </p>
+
+    <h3 class="w3-text-light-grey">설명 및 개요</h3>
+    <hr style="width:200px" class="w3-opacity">
+    <p><b><em>"감사하며, 사랑하자."</em></b><br><br>
+    	저의 부모님은 저에게 많은 것을 몸소 보여주시며 가르쳐 주셨습니다.<br>
+    	제가 어릴때, 부모님께 안 좋은 일이 겹치면서 그리 풍족하게 지내지는 못했습니다.<br>
+    	하지만 저의 부모님께서는 하루도 빠짐없이 성실히 일하시면서도 부족함을 느끼지 못할만큼 저를 사랑으로 키워주셨습니다.<br>
+    	그러한 부모님의 사랑과 희생은 저 또한 남을 생각할 줄 알고, 베풀 줄 아는 사람이 되도록 하셨습니다.<br>
+    </p>
+    
+    <h3 class="w3-text-light-grey">구현</h3>
+    <hr style="width:200px" class="w3-opacity">
+    <p><b><em>"책임감을 가지자."</em></b><br><br>
+    	안으로, 밖으로 책임감을 가지고 생각합니다.<br>
+    	"대충 시간만 때우면 되지..."라는 무책임함은 다른 사람뿐만 아니라 나 자신도 좀 먹게한다고 생각합니다.<br>
+    	나의 발전과 성장을 위해 항상 책임감을 가지고 생각하고, 행동합니다.<br>
+    </p>
+    
+    <h3 class="w3-text-light-grey">나의 생각</h3>
+    <hr style="width:200px" class="w3-opacity">
+    <p><b><em>"성장에 의미를 두자."</em></b><br><br>
+    	교내 - 부트캠프(은상)<br>
+    	교외 - Amazon Web Service DeepRacer 대회 참가(4위)<br>
+    	
+    </p>
+	<!-- 깃허브 -->
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey w3-hover-white">
+      <div class="w3-quarter w3-section">
+      	<!--나의 깃허브 주소 -->
+        <span class="w3-xlarge"><a href="https://github.com/SomedayImgonnaB" target="_blank">GIT-HUB</a></span><br>
+        Click to check.
+      </div>
+      <!-- github API로 레파지토리 정보를 받을 예정 -->
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">8+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">2+</span><br>
+        Project Doing
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">0+</span><br>
+        Project Planing
+      </div>
+    </div>
+	<!-- 이력서 다운로드 기능 -->
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+        
+  <!-- End introduce Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="study">
+    <h2 class="w3-text-light-grey">My study</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for study -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+      	<ol>
+			<li><a href="api1.jsp">API1</a></li>
+			<li><a href="api2.jsp">API2</a></li>
+			<li><a href="api3.jsp">API3</a></li>
+			<li><a href="api4.jsp">API4</a></li>
+		</ol>	
+				
+       	 <!-- 버튼으로 해당 공부내용이 정리된 페이지로 이동할 예정 -->
+      </div>
+
+      <div class="w3-half">
+        <!-- 버튼으로 해당 공부내용이 정리된 페이지로 이동할 예정 -->
+      </div>
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Busan,South Korea</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +82 10-7793-2760</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: hkj445@gmail.com</p>
+    </div><br>
+    <p>Lets get in touch. Send me a message:</p>
+	
+	
+	<!--페이지 메일링. 나의 메일로 내용을 보낼 수 있게 -->
+    <form action="/action_page.jsp" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  	<!-- 링크거는거 수정하기 -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
